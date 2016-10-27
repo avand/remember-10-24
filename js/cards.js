@@ -55,6 +55,7 @@ function initCards() {
 
     card.find(".card-person-name").html(person.firstName + "<br>" + person.lastName);
     card.find(".card-person-image").attr("src", person.image);
+    card.find(".card-number").text(i + 1);
     card.attr("id", "card-" + i).data("person", person).removeClass("hide")
     card.appendTo(main)
   });
