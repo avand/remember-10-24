@@ -1,0 +1,64 @@
+.card {
+  display: inline-block;
+  height: 7.6em;
+  width: 5em;
+  margin: .3em;
+  cursor: pointer;
+  perspective: 1000px;
+}
+
+.card-person-image {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: .5em;
+}
+
+.card-person-name {
+  font-size: 0.7em;
+  line-height: 1.2;
+  margin: 0 .5em;
+}
+
+.card-flipped {
+  cursor: default;
+}
+
+.card-flipped .card-flipper {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.card-flipper {
+	transition: transform 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+  height: 100%;
+}
+
+.card-front {
+	z-index: 2;
+	transform: rotateY(0deg);
+  background-image: url("../images/back-card.png");
+  background-size: 100% 100%;
+}
+
+.card-front,
+.card-flipped .card-back {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-back {
+	transform: rotateY(180deg);
+}

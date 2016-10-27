@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Remember 10.24</title>
+    <link rel="stylesheet" href="css/application.css" media="screen">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/sprinkles.min.js"></script>
+    <script src="js/people.js"></script>
+    <script src="js/modals.js"></script>
+    <script src="js/cards.js"></script>
+  </head>
+  <body>
+    <header class="align-center">
+      <h1>Remember 10.24</h1>
+      <p id="instructions">
+        Study the cards. When you’re ready, pair matching cards to
+        discover more about your new teammates.
+      </p>
+    </header>
+
+    <main>
+    </main>
+
+    <footer class="align-center">
+      Have a wonderful day!
+    </footer>
+
+    <div id="im-ready" class="fixed align-center">
+      <button class="button">I’m ready!</button>
+    </div>
+
+    <div id="card-template" class="card align-center hide">
+    	<div class="card-flipper">
+    		<div class="card-front"></div>
+    		<div class="card-back">
+          <img src="" class="card-person-image block">
+          <div class="card-person-name"></div>
+        </div>
+    	</div>
+    </div>
+
+    <div class="modal-container fixed full-bleed hide">
+      <div class="modal-content">
+        <img src="" class="person-image">
+
+        <div class="person-info">
+          <img src="images/close-button.png" class="modal-close-control pointer">
+
+          <h1 class="person-name"></h1>
+          <h2 class="person-role-and-location"></h2>
+
+          <hr>
+
+          <p class="person-fun-fact"></p>
+          <p class="person-favorite-costume"></p>
+          <p>
+            <a href="#" class="button person-one-airbnb" target="_blank">one.airbnb</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <canvas id="confetti" class="fixed full-bleed hide transparent"></canvas>
+
+    <script src="js/confetti.js"></script>
+  </body>
+</html>

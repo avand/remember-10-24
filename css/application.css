@@ -1,0 +1,121 @@
+@import "sprinkles.min.css";
+@import "cards.css";
+@import "modals.css";
+
+@font-face {
+  font-family: Circular;
+  src: url("../fonts/Circular_Air-Book.eot");
+  src: url("../fonts/Circular_Air-Book.eot?#") format("eot"),
+       url("../fonts/Circular_Air-Book.woff2") format("woff2"),
+       url("../fonts/Circular_Air-Book.woff") format("woff"),
+       url("../fonts/Circular_Air-Book.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Circular;
+  src: url("../fonts/Circular_Air-Bold.eot");
+  src: url("../fonts/Circular_Air-Bold.eot?#") format("eot"),
+       url("../fonts/Circular_Air-Bold.woff2") format("woff2"),
+       url("../fonts/Circular_Air-Bold.woff") format("woff"),
+       url("../fonts/Circular_Air-Bold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Circular;
+  src: url("../fonts/Circular_Air-Light.eot");
+  src: url("../fonts/Circular_Air-Light.eot?#") format("eot"),
+       url("../fonts/Circular_Air-Light.woff2") format("woff2"),
+       url("../fonts/Circular_Air-Light.woff") format("woff"),
+       url("../fonts/Circular_Air-Light.svg") format("svg");
+  font-weight: 200;
+  font-style: normal;
+}
+
+body {
+  font-family: "Circular", sans-serif;
+  font-size: 22px;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+footer {
+  padding: 4em 0;
+  font-weight: 200;
+  font-size: 0.8em;
+}
+
+header h1 {
+  font-size: 1.4em;
+  margin: 1.2em 0 0;
+}
+
+.button {
+  color: white;
+  padding: .6em 1.4em;
+  background-color: rgb(25, 165, 153);
+  border-radius: 1.4em;
+  text-decoration: none;
+  font-size: .75em;
+  font-weight: bold;
+  display: inline-block;
+  border: rgb(14, 128, 118);
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: 0;
+}
+
+#instructions {
+  margin: .8em 0 1.8em;
+  font-weight: 200;
+}
+
+#im-ready {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2em;
+  transition: transform 200ms;
+}
+
+#im-ready .button {
+  box-shadow: 0 2px 1em rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  font-size: 1.2em;
+}
+
+.fly-down {
+  transform: translateY(10em);
+}
+
+#confetti {
+  pointer-events: none;
+  transition: opacity 1.5s 1s;
+}
+
+@media (max-width: 750px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 675px) {
+  body {
+    font-size: 16px;
+  }
+}

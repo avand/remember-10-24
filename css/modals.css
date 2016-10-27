@@ -1,0 +1,110 @@
+.modal-container {
+  transition: transform 300ms, opacity 300ms;
+  overflow: scroll;
+  padding: 1em;
+}
+
+.modal-content {
+  background-color: white;
+  max-width: 600px;
+  margin: 2em auto 0;
+  transition: transform 200ms 100ms, opacity 200ms 100ms;
+  opacity: 0;
+  transform: scale(0.8);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  padding: 1.5em 3em;
+}
+
+.modal-container.modal-open {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.modal-container.modal-open .modal-content {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.modal-close-control {
+  width: .8em;
+  height: .8em;
+  opacity: 0.5;
+  padding: .5em;
+  margin: 0 0 .6em -.5em;
+}
+.modal-close-control:hover {
+  opacity: 1;
+}
+
+.modal-content hr {
+  border: 0;
+  height: 1px;
+  width: 40px;
+  background: #bebebe;
+  margin: 1em 0;
+}
+
+.person-image {
+  width: 8em;
+  height: 8em;
+  order: 2;
+}
+
+.person-info {
+  font-weight: 200;
+  margin-right: 10%;
+  order: 1;
+}
+
+.person-name {
+  font-size: 1.4em;
+  margin-bottom: .2em;
+}
+
+.person-role-and-location {
+  font-size: 1em;
+}
+
+.person-fun-fact,
+.person-favorite-costume {
+  font-size: 0.85em;
+}
+
+.person-fun-fact {
+  margin-bottom: 1.2em;
+}
+.person-favorite-costume {
+  margin-bottom: 2em;
+}
+
+.person-fun-fact::before {
+  content: "Fun fact: ";
+  font-weight: bold;
+}
+
+.person-favorite-costume::before {
+  content: "Favorite costume: ";
+  font-weight: bold;
+}
+
+@media (max-width: 500px) {
+  .modal-content {
+    margin-top: 0;
+  }
+
+  .modal-content {
+    display: block;
+  }
+
+  .person-image {
+    float: right;
+    width: 5em;
+    height: 5em;
+    margin: 2.5em 0 1em 1em;
+  }
+
+  .person-info {
+    margin-right: 0;
+  }
+}
