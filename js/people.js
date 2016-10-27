@@ -15,7 +15,7 @@ window.people = [
     "role": "Software Engineer, Frontend",
     "location": "San Francisco",
     "favoriteCostume": "Famous. I wore a black blazer, fedora, huge sunglasses, and  hired a couple college kids off Craigslist with flashy cameras to follow me around all night.",
-    "funFact": "For the last 3 years, I've been teaching front-end web development at General Assembly part-time. If you ever want to learn some HTML, CSS, or JS, please come find me. I will hook you up! "
+    "funFact": "For the last 3 years, I’ve been teaching front-end web development at General Assembly part-time. If you ever want to learn some HTML, CSS, or JS, please come find me. I will hook you up!"
   },
   {
     "firstName": "Ben",
@@ -24,7 +24,7 @@ window.people = [
     "role": "Experience Researcher",
     "location": "San Francisco",
     "favoriteCostume": "Ostrich hunter",
-    "funFact": "I took four years off to travel and to write about traveling. I've also climbed Mount Rainier four times."
+    "funFact": "I took four years off to travel and to write about traveling. I’ve also climbed Mount Rainier four times."
   },
   {
     "firstName": "Davi",
@@ -32,7 +32,7 @@ window.people = [
     "image": "images/davi.png",
     "role": "Software Engineer, Site Reliability",
     "location": "San Francisco",
-    "favoriteCostume": "None.",
+    "favoriteCostume": "None",
     "funFact": "I can fly an airplane upside-down."
   },
   {
@@ -50,8 +50,8 @@ window.people = [
     "image": "images/jennifer.png",
     "role": "Senior Brand Marketing Operations Manager Global",
     "location": "San Francisco",
-    "favoriteCostume": "Dressing up as Disney's Lilo and Stitch for Halloween with my son",
-    "funFact": "I love baking and buying sweets, but don't particularly like eating sweets."
+    "favoriteCostume": "Dressing up as Disney’s Lilo and Stitch for Halloween with my son.",
+    "funFact": "I love baking and buying sweets, but don’t particularly like eating sweets."
   },
   {
     "firstName": "John",
@@ -60,7 +60,7 @@ window.people = [
     "role": "Product Marketing Manager",
     "location": "San Francisco",
     "favoriteCostume": "Disco Justin Timberlake",
-    "funFact": "I'm a foodie. I opened sandwich restaurants in NYC but I don't like sandwiches. "
+    "funFact": "I’m a foodie. I opened sandwich restaurants in NYC but I don’t like sandwiches."
   },
   {
     "firstName": "Jo",
@@ -68,8 +68,8 @@ window.people = [
     "image": "images/jo.png",
     "role": "Copywriter",
     "location": "San Francisco",
-    "favoriteCostume": "",
-    "funFact": ""
+    "favoriteCostume": "Why is Halloween the only day we admit to wearing a mask?",
+    "funFact": "If you have a picture with Winnie the Pooh at Disneyland in 2001, you might have a picture with me."
   },
   {
     "firstName": "Julio",
@@ -77,8 +77,8 @@ window.people = [
     "image": "images/julio.png",
     "role": "Product Marketing Manager",
     "location": "San Francisco",
-    "favoriteCostume": "Who doesn't like a good firefighter?",
-    "funFact": "I can officiate weddings! In fact, just did my first one this year for my best friend, who started out as my Airbnb host. "
+    "favoriteCostume": "Who doesn’t like a good firefighter?",
+    "funFact": "I can officiate weddings! In fact, just did my first one this year for my best friend, who started out as my Airbnb host."
   },
   {
     "firstName": "Kaiyi",
@@ -86,8 +86,8 @@ window.people = [
     "image": "images/kaiyi.png",
     "role": "Software Engineer, Product Security",
     "location": "San Francisco",
-    "favoriteCostume": "cowboy",
-    "funFact": "In my childhood I lived in Monte Vista, Cape Town in South Africa. 'monte vista' means 'moutain view' (Table Mountain) - coincidentally this is also the name of city I lived in when I first moved to the Bay Area."
+    "favoriteCostume": "Cowboy",
+    "funFact": "In my childhood I lived in Monte Vista, Cape Town in South Africa. “Monte vista” means “moutain view” (Table Mountain) - coincidentally this is also the name of city I lived in when I first moved to the Bay Area."
   },
   {
     "firstName": "Keith",
@@ -105,7 +105,7 @@ window.people = [
     "role": "Software Engineer, Full Stack/iOS",
     "location": "San Francisco",
     "favoriteCostume": "Obama + 2 Chainz = Two Termz",
-    "funFact": "I haven't watched TV in 5 years. So unfortunately, I haven't seen that new cool show but I'm good at pretending that I have."
+    "funFact": "I haven’t watched TV in 5 years. So unfortunately, I haven’t seen that new cool show but I’m good at pretending that I have."
   },
   {
     "firstName": "Laura",
@@ -122,8 +122,8 @@ window.people = [
     "image": "images/maeve.png",
     "role": "Community Organizer",
     "location": "Toronto",
-    "favoriteCostume": "",
-    "funFact": ""
+    "favoriteCostume": "Sailor Moon",
+    "funFact": "I love jumping from high places -- most recently the highest bungee jump in Canada."
   },
   {
     "firstName": "Jay",
@@ -131,8 +131,8 @@ window.people = [
     "image": "images/jay.png",
     "role": "CRM Solution Architect",
     "location": "San Francisco",
-    "favoriteCostume": "Cop dress for a fancy dress \ncompetition in high school",
-    "funFact": "I had special interests to try Culinary \nschool and medical school for a while; Finally, I decied \nto do Engineering and pursued Software Engineering"
+    "favoriteCostume": "Cop dress for a fancy dress competition in high school",
+    "funFact": "I had special interests to try Culinary school and medical school for a while; finally, I decied to do Engineering and pursued Software Engineering."
   },
   {
     "firstName": "Sahil",
@@ -140,8 +140,8 @@ window.people = [
     "image": "images/sahil.png",
     "role": "Software Engineer",
     "location": "San Francisco",
-    "favoriteCostume": "Made a vest and hat out of Trader Joe's bags, I was Trader Joe",
-    "funFact": "I have a MASSIVE sweet tooth, but I don't like chocolate."
+    "favoriteCostume": "Made a vest and hat out of Trader Joe’s bags, I was Trader Joe.",
+    "funFact": "I have a MASSIVE sweet tooth, but I don’t like chocolate."
   },
   {
     "firstName": "Sonia",
@@ -149,8 +149,8 @@ window.people = [
     "image": "images/sonia.png",
     "role": "Relationship Manager, Business Travel",
     "location": "San Francisco",
-    "favoriteCostume": "Swine Flu (picture two people dressed in alll pink, pig ears and snout; one wearing a shirt with  \"H1\" and the other with \"N1\")",
-    "funFact": "I got married in a roller rink on roller skates wearing a retro 70's gogo dress."
+    "favoriteCostume": "Swine Flu (picture two people dressed in all pink, pig ears and snout; one wearing a shirt with “H1” and the other with “N1”)",
+    "funFact": "I got married in a roller rink on roller skates wearing a retro 70’s gogo dress."
   },
   {
     "firstName": "Sophia",
@@ -167,8 +167,8 @@ window.people = [
     "image": "images/stefan.png",
     "role": "Software Engineer",
     "location": "Portland",
-    "favoriteCostume": "The Invisible Pedestiran (an homage to Dan Aykroyd on SNL)",
-    "funFact": "I used to work on designing satellite missions for NASA. When I say that working it here out of this world, I mean it!"
+    "favoriteCostume": "The Invisible Pedestrian (an homage to Dan Aykroyd on SNL)",
+    "funFact": "I used to work on designing satellite missions for NASA. When I say that working is here out of this world, I mean it!"
   },
   {
     "firstName": "Yutian",
@@ -186,6 +186,6 @@ window.people = [
     "role": "Software Engineer",
     "location": "San Francisco",
     "favoriteCostume": "James Bond",
-    "funFact": "I have more than 15 TV set top box or stick though I don't watch TV that much."
+    "funFact": "I have more than 15 TV set top box or stick though I don’t watch TV that much."
   }
 ];
