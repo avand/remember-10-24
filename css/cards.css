@@ -2,14 +2,13 @@
   display: inline-block;
   height: 7.6em;
   width: 5em;
-  margin: .3em;
+  margin: .5em;
   cursor: pointer;
   perspective: 1000px;
 }
 
 .card-person-image {
   width: 100%;
-  border-radius: 5px 5px 0 0;
   margin-bottom: .5em;
 }
 
@@ -37,7 +36,8 @@
   right: 0;
   bottom: 0;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
+  border-radius: .5em;
+  overflow: hidden;
 }
 
 .card-flipper {
