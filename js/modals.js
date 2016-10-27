@@ -2,7 +2,6 @@ var modalContainer;
 
 function openModal(person) {
   var username = (person.firstName + "_" + person.lastName).toLowerCase()
-  var oneAirbnb = "https://one.airbnb.com/people/" + username;
   var roleAndLocation = person.role + ", " + person.location;
 
   modalContainer.find(".person-name").text("Hi, I’m " + person.firstName + "!");
@@ -10,7 +9,7 @@ function openModal(person) {
   modalContainer.find(".person-fun-fact").text(person.funFact);
   modalContainer.find(".person-favorite-costume").text(person.favoriteCostume);
   modalContainer.find(".person-image").attr("src", person.image);
-  modalContainer.find(".person-one-airbnb").attr("href", oneAirbnb);
+  modalContainer.find(".person-one-airbnb").attr("href", person.oneAirbnb);
 
   modalContainer.removeClass("hide");
   setTimeout(function() { modalContainer.addClass("modal-open") }, 10)
