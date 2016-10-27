@@ -156,7 +156,7 @@ window.people = [
     "firstName": "Sophia",
     "lastName": "Sun",
     "image": "images/sophia.png",
-    "role": "Data Scientist Growth, Onboarding ",
+    "role": "Data Scientist Growth, Onboarding",
     "location": "San Francisco",
     "favoriteCostume": "Arale",
     "funFact": "I have tried >50 kinds of seafood so far. The number is still counting."

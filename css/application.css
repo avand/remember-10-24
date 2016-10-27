@@ -49,13 +49,7 @@ main {
   justify-content: space-around;
   flex-flow: row wrap;
   max-width: 800px;
-  margin: 0 auto;
-}
-
-footer {
-  padding: 4em 0;
-  font-weight: 200;
-  font-size: 0.8em;
+  margin: 0 auto 6.5em;
 }
 
 header {
@@ -71,13 +65,13 @@ header h1 {
 .button {
   color: white;
   padding: .6em 1.4em;
-  background-color: rgb(25, 165, 153);
+  background-color: rgb(252, 92, 98);
   border-radius: 1.4em;
   text-decoration: none;
   font-size: .75em;
   font-weight: bold;
   display: inline-block;
-  border: rgb(14, 128, 118);
+  border: none;
   cursor: pointer;
 }
 
@@ -99,7 +93,7 @@ header h1 {
 }
 
 #im-ready .button {
-  box-shadow: 0 2px 1em rgba(0, 0, 0, 0.5);
+  box-shadow: 0 .15em 1em rgba(0, 0, 0, 0.5);
   margin: 0 auto;
   font-size: 1.2em;
 }
@@ -110,7 +104,7 @@ header h1 {
 
 #confetti {
   pointer-events: none;
-  transition: opacity 1.5s 1s;
+  transition: opacity 1.5s 500ms;
 }
 
 @media (max-width: 750px) {
