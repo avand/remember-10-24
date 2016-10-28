@@ -28,6 +28,8 @@ function flipCard(event) {
       if (matches.length == window.people.length) {
         $("#confetti").removeClass("hide");
         setTimeout(function() { $("#confetti").removeClass("transparent") }, 10)
+
+        ga("send", "event", "game", "won");
       }
     } else {
       ids = ["#" + cardOne.attr("id")];
@@ -63,6 +65,8 @@ function initCards() {
   $(".card").addClass("card-flipped");
 
   $("#im-ready .button").click(function() {
+    ga("send", "event", "game", "started");
+
     $("#im-ready").addClass("fly-down");
     setTimeout(function() { $("im-ready").addClass("hide") }, 200);
 
